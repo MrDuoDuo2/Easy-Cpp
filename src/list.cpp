@@ -46,7 +46,7 @@ static list_node_t *new_node(void *data) {
     free(list);
 }
 
- list_node_t *list_get(list_t *list, size_t index) {
+list_node_t *list_get(list_t *list, size_t index) {
 list_node_t *node = list->head;
 size_t n = 0;
 
