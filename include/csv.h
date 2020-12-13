@@ -8,7 +8,7 @@
 
 #include "list.h"
 
-void csv_parser(char *string, char *delimiter, list_t *list);
+void csv_parser(char *s, char *delimiter, list_t *list);
 
 
 #endif //EASY_CPP_CSV_H
